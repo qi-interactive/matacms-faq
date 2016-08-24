@@ -12,7 +12,7 @@
     },
     "autoload": {
         "psr-4": {
-            "matacms\\contentblock\\": ["../../../mata-cms/modules/matacms/matacms-faq", ""]
+            "matacms\\faq\\": ["../../../mata-cms/modules/matacms/matacms-faq", ""]
         }
     }
 }
