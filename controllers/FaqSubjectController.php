@@ -62,6 +62,16 @@ class FaqSubjectController extends Controller {
 		return new FaqSubjectSearch();
 	}
 
+	public function actionIndex()
+	{
+		if(Yii::$app->request->get('showRearrange', false) == true) {
+			\Yii::$app->view->registerJs("
+				$('.rearrangeable-trigger-btn').trigger('click');", View::POS_READY);
+		}
+
+		return parent::actionIndex();
+	}
+
 	public function actionDelete($id) {
 		throw new \yii\web\NotFoundHttpException('You cannot delete FAQ subject');
 	}
