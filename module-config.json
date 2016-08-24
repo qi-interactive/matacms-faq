@@ -1,0 +1,6 @@
+{
+    "name": "Faq",
+    "description": "Faq management for MATA CMS",
+    "icon" : "/images/module-icon.svg",
+    "version" : 1
+}

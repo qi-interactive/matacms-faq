@@ -1,0 +1,18 @@
+{
+    "name": "matacms/matacms-faq",
+    "description": "Manages FAQs in MATA CMS.",
+    "keywords": ["yii2", "matacms-faq", "faq", "mata-cms", "cms"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "mata/mata-imperavi-redactor": "~1.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "matacms\\contentblock\\": ["../../../mata-cms/modules/matacms/matacms-faq", ""]
+        }
+    }
+}
