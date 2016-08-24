@@ -9,7 +9,7 @@
 use yii\db\Schema;
 use yii\db\Migration;
 
-class m160824_114850 extends Migration {
+class m160824_114850_init extends Migration {
 
 	public function safeUp() {
 		$this->createTable('{{%matacms_faq_subject}}', [
