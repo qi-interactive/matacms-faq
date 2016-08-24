@@ -55,7 +55,7 @@ class FaqController extends Controller {
 		$dataProvider->pagination = false;
 		$rearrangeActionUrl = $this->actions()['rearrange']['url'];
 
-		return $this->renderAjax('@matacms/modules/faq/views/faq/_rearrangeable', ['dataProvider' => $dataProvider, 'rearrangeActionUrl' => $rearrangeActionUrl]);
+		return $this->renderAjax('@vendor/matacms/matacms-faq/views/faq/_rearrangeable', ['dataProvider' => $dataProvider, 'rearrangeActionUrl' => $rearrangeActionUrl]);
 	}
 
 	public function getModel() {
@@ -83,7 +83,7 @@ class FaqController extends Controller {
 			$dataProvider->query->orderBy = null;
 		} else {
 			if(BehaviorHelper::hasBehavior($searchModel, \mata\arhistory\behaviors\HistoryBehavior::class)) {
-				$dataProvider->query->select('faq_question.*');
+				$dataProvider->query->select('matacms_faq_question.*');
 				$reflection =  new \ReflectionClass($searchModel);
 				$parentClass = $reflection->getParentClass();
 
@@ -127,7 +127,7 @@ class FaqController extends Controller {
 
 		$model = $this->getModel();
 
-		if($subject != null) {			
+		if($subject != null) {
 			$model->SubjectId = $subject->Id;
 		}
 

@@ -13,13 +13,12 @@ use matacms\db\ActiveQuery;
 use mata\media\models\Media;
 
 /**
- * This is the model class for table "faq_question".
+ * This is the model class for table "matacms_faq_question".
  *
  * @property integer $Id
  * @property string $Question
  * @property string $Answer
  * @property integer $SubjectId
- * @property string $Language
  */
 class FaqQuestion extends \matacms\db\ActiveRecord
 {
