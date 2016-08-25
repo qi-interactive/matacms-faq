@@ -33,3 +33,7 @@ Changelog
 ## 1.0.0-alpha, August 24, 2016
 
 - Initial release.
+
+## 1.0.0.1-alpha, August 25, 2016
+
+- Updated module icon
