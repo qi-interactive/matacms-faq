@@ -3,17 +3,20 @@
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 40 40" enable-background="new 0 0 40 40" xml:space="preserve">
 <g id="Layer_1">
-	
-		<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="1,0" d="
-		M29.13,9.912c0,4.03-7.296,14.886-7.296,13.713c0,0-7.302-9.683-7.302-13.713c0-4.03,3.27-7.299,7.302-7.299
-		C25.86,2.613,29.13,5.882,29.13,9.912z"/>
-	
-		<circle fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="1,0" cx="21.831" cy="9.862" r="2.469"/>
-	
-		<polyline fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-dasharray="1,0" points="
-		31.316,14.835 33.939,15.872 33.508,24.092 33.939,33.31 24.901,30.698 17.713,35.387 5.609,33.31 5.911,23.748 4.06,14.118 
-		13,16.062 	"/>
+	<g>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M15.133,23.079l-3.439,3.521c-0.4,0.41-1.215,1.466-2.369,1.468c-1.717,0.004-1.613-1.882-1.613-1.882v-3.108H6.029
+			c-1.615,0-2.926-1.311-2.926-2.927V9.219c0-1.616,1.311-2.927,2.926-2.927h20.295c1.615,0,2.926,1.311,2.926,2.927v10.932
+			c0,1.616-1.311,2.927-2.926,2.927L15.133,23.079z"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="8.557" y1="12.125" x2="23.342" y2="12.125"/>
+		
+			<line fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="8.557" y1="17.246" x2="17.961" y2="17.246"/>
+		<path fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M32.684,12.125h1.285c1.617,0,2.928,1.311,2.928,2.927v10.741c0,1.615-1.311,2.926-2.928,2.926h-2.506v3.106
+			c0,0,0.106,1.887-1.611,1.883c-1.154-0.002-1.969-1.058-2.371-1.468l-3.437-3.521l-6.258-0.001c-1.02,0-1.916-0.521-2.44-1.31"/>
+	</g>
 </g>
-<g id="labels">
+<g id="labels" display="none">
 </g>
 </svg>
