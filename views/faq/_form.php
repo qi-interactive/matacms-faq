@@ -40,7 +40,7 @@ $subjectsArray = ArrayHelper::map($subjects, 'Id', 'Subject');
 
         <?= $form->field($model, 'Answer')->wysiwyg() ?>
 
-        <?= $form->field($model, 'SubjectId')->dropDownList($subjectsArray, ['prompt' => 'Select Subject', 'clientOptions' => ['create' => true]]); ?>
+        <?= $form->field($model, 'SubjectId')->dropDownList($subjectsArray, ['prompt' => 'Select Subject   ', 'clientOptions' => ['create' => true]]); ?>
 
         <?= $form->submitButton($model) ?>
 

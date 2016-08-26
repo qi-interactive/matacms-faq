@@ -38,13 +38,13 @@ class Module extends BaseModule {
 
 		$navigation[] = [
 			'label' => "Add Subject",
-			'url' => "/mata-cms/faq/faq-subject",
+			'url' => "/mata-cms/faq/faq-subject/create",
 			'icon' => "/images/plus.svg"
 		];
 
 		$navigation[] = [
 			'label' => "Add Question",
-			'url' => "/mata-cms/faq/faq",
+			'url' => "/mata-cms/faq/faq/create",
 			'icon' => "/images/plus.svg"
 		];
 
