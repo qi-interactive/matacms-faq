@@ -30,6 +30,10 @@ FAQ Client extends [`matacms\clients`](https://github.com/qi-interactive/matacms
 Changelog
 ---------
 
+## 1.0.0.3-alpha, August 26, 2016
+
+- Minor update
+
 ## 1.0.0.2-alpha, August 26, 2016
 
 - Bugfixes
